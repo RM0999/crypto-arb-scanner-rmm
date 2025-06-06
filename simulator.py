@@ -1,7 +1,7 @@
 import simulator
 
 # simulator.py
-if 'wallet' not in st.session_state:
+
     st.session_state.wallet = simulator.Wallet(balance=1000)
 
 class Wallet:
